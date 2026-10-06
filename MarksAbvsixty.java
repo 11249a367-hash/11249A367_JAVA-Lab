@@ -1,3 +1,14 @@
+AIM:
+To print the marks that are greater than 60 from an array.
+
+ALGORITHM:
+1. Read the number of students and their marks.
+2. Traverse the array of marks.
+3. Check whether each mark is greater than 60.
+4. If true, print the mark.
+5. Display a message if no mark is above 60.
+
+PROGRAM:    
 import java.util.Scanner;
 
 public class MarksAbvsixty {
@@ -29,3 +40,15 @@ public class MarksAbvsixty {
         }
     }
 }
+
+OUTPUT:
+Enter number of students: 5
+Enter marks:
+55 72 68 45 90
+Marks above 60:
+72
+68
+90
+
+RESULT:
+All marks greater than 60 are successfully printed.
