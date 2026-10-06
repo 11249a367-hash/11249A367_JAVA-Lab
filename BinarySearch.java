@@ -1,3 +1,16 @@
+AIM:
+To search for an element in a sorted array using the binary search technique.
+
+ALGORITHM:
+1. Read the number of elements and a sorted array.
+2. Read the element to be searched.
+3. Set low = 0 and high = n - 1.
+4. Find mid = (low + high) / 2.
+5. If a[mid] equals the key, report the position.
+6. If the key is greater, search the right half; otherwise search the left half.
+7. Repeat until the element is found or low becomes greater than high.
+
+ PROGRAM: 
 import java.util.Scanner;
 class BinarySearch
 {
@@ -34,3 +47,15 @@ if(flag==0)
 System.out.println("element not found");
 }
 }
+
+OUTPUT:
+Enter number of elements:
+4
+Enter elements of array:
+2 7 5 9
+Enter element to search:
+7
+element found
+
+RESULT:
+The required element is successfully searched using binary search.
