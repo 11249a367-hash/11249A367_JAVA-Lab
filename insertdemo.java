@@ -1,3 +1,16 @@
+AIM:
+To configure a Java GUI window showcasing five distinct operational zones utilizing the BorderLayout positioning manager along with a cyan background highlight and customized window margins
+
+ALGORITHM:
+1. Start the application.
+2. Create a Frame window, set its background to cyan, and layout to BorderLayout.
+3. Add 4 Buttons to the boundary zones: NORTH, SOUTH, EAST, and WEST.
+4. Add a multi-line TextArea to the remaining focal zone: CENTER.
+5. Configure spacing margins around the outer frame edges using getInsets().
+6. Set frame size, attach a window close listener, and make it visible.
+7. End the application
+
+CODE:
 import java.awt.*;
 import java.awt.event.*;
 
@@ -38,3 +51,6 @@ public class insertdemo extends Frame {
         new insertdemo();
     }
 }
+
+RESULT:
+We successfully executed border layout program using java.
