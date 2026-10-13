@@ -1,3 +1,14 @@
+AIM:
+To perform addition, subtraction, multiplication and division using a switch statement.
+
+  ALGORITHM:
+1. Read two numbers.
+2. Display a menu of arithmetic operations.
+3. Read the user&#39;s choice.
+4. Use switch to perform the selected operation.
+5. Display the result.
+
+CODE:
 import java.util.Scanner;
 public class ArithmeticOperators
 {
@@ -54,3 +65,19 @@ System.exit(0);
 }
 }
 }
+
+OUTPUT:
+Enter the two numbers to perform operations 
+Enter the first number : 7
+Enter the second number : 5
+Choose the operation you want to perform 
+Choose 1 for ADDITION
+Choose 2 for SUBTRACTION
+Choose 3 for MULTIPLICATION
+Choose 4 for DIVISION
+Choose 5 for MODULUS
+Choose 6 for EXIT
+6
+
+RESULT:
+  The selected arithmetic operation is successfully performed using switch.
