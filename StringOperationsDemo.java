@@ -1,3 +1,13 @@
+AIM:
+To demonstrate common string operations in Java.
+
+ALGORITHM:
+1. Create two strings.
+2. Perform length, charAt, concatenation, equals, equalsIgnoreCase, compareTo, substring, toUpperCase,
+toLowerCase, trim, contains, replace and indexOf operations.
+3. Display the result of each operation.
+
+CODE:
 public class StringOperationsDemo {
     public static void main(String[] args) {
         // 1. Creation and Initialization
@@ -50,3 +60,20 @@ public class StringOperationsDemo {
     }
 }
 
+OUTPUT:
+Original String: '  Hello, Java Programming!  '
+Length of String: 28
+Trimmed String: 'Hello, Java Programming!'
+Uppercase: HELLO, JAVA PROGRAMMING!
+Lowercase: hello, java programming!
+Character at index 0: H
+Extracted Substring: Java
+Contains 'Java'?: true
+First occurrence index of 'r': 13
+Replaced String: Hello, Python Programming!
+Comparison using ==: false
+Comparison using .equals(): true
+Split Array: [Apple] [Banana] [Orange]
+
+RESULT:
+Java string operations are successfully demonstrated.
