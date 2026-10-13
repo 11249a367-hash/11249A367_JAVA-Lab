@@ -1,3 +1,13 @@
+AIM:
+To find the largest among three numbers.
+
+ALGORITHM:
+ 1. Read three numbers.
+2. Compare the first number with the other two.
+3. Update the largest value whenever a larger number is found.
+4. Display the largest number.
+
+CODE:
 import java.util.Scanner;
 class LargestOfThreeNumbers
 {
@@ -19,3 +29,13 @@ else
 System.out.println("The numbers are not distinct.");
 }
 }
+
+OUTPUT:
+Enter three integers
+45
+0
+100
+Third number is largest.
+
+RESULT:
+The largest of the three numbers is successfully determined.
