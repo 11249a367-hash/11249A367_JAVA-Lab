@@ -1,3 +1,14 @@
+AIM:
+To determine whether a given integer is even or odd.
+
+ ALGORITHM:
+1. Read an integer.
+2. Divide the number by 2 and find the remainder.
+3. If the remainder is 0, the number is even.
+4. Otherwise, the number is odd.
+5. Display the result.
+
+CODE:
 import java.util.*;
 class EvenOddSwitch
 {
@@ -18,4 +29,9 @@ break;
 }
 }
     
+OUTPUT:
+5
+This number is odd
 
+RESULT:
+The given number is successfully identified as even or odd.
