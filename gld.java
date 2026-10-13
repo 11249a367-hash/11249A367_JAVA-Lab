@@ -1,3 +1,16 @@
+AIM:
+To design a Java AWT window application that arranges ten component buttons in a structured grid pattern consisting of 5 rows and 2 columns using GridLayout and applies border spacing with Insets.
+
+ALGORITHM:
+1. Start the application.
+2. Create a Frame window and set its layout to GridLayout(5, 2).
+3. Instantiate 10 Buttons with labels from 'A' to 'J'.
+4. Add all buttons sequentially to the frame layout.
+5. Apply padding margins around the frame window using the getInsets() method.
+6. Set frame size, attach a window close listener, and make it visible.
+7. End the application.
+
+CODE:
 import java.awt.*;
 import java.awt.event.*;
 
@@ -49,3 +62,5 @@ public class gld extends Frame {
     }
 }
 
+RESULT:
+We successfully executed grid programm using java.
