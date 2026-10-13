@@ -1,3 +1,14 @@
+AIM:
+To generate the Fibonacci series up to a specified number of terms.
+
+ALGORITHM:
+1. Read the number of terms.
+2. Initialize the first two terms as 0 and 1.
+3. Print the current term.
+4. Calculate the next term as the sum of the previous two terms.
+5. Repeat until the required number of terms is printed.
+
+CODE:
 import java.util.Scanner;
 public class FibonacciSeries {
 public static void main(String[] args) {
@@ -24,3 +35,10 @@ b = nextNumber;
 }
 }
 }
+
+OUTPUT:
+Enter the value of n: 5
+0 1 1 2 3 5
+
+RESULT:
+The Fibonacci series is successfully generated for the specified number of terms.
