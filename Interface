@@ -1,0 +1,64 @@
+AIM:
+To implement an interface in Java to achieve total abstraction and define a standard blueprint for implementing classes.
+
+ALGORITHM:
+1. Start the program.
+2. Define an interface containing abstract method declarations.
+3. Create a class that implements this interface.
+4. Override and provide the code body for all the interface methods inside the class.
+5. Create a main method to instantiate the class object and call the implemented methods.
+6. Stop the program.
+
+CODE:
+import java.io.*;
+interface Exam {
+void percent_cal();
+}
+class Student {
+String name;
+int roll_no,mark1,mark2;
+Student(String n, int r, int m1, int m2) {
+name=n;
+roll_no=r;
+mark1=m1;
+mark2=m2;
+}
+void display() {
+System.out.println ("Name of Student: "+name);
+System.out.println ("Roll No. of Student: "+roll_no);
+System.out.println ("Marks of Subject 1: "+mark1);
+System.out.println ("Marks of Subject 2: "+mark2);
+}
+}
+class Result extends Student implements Exam {
+Result(String n, int r, int m1, int m2) {
+super(n,r,m1,m2);
+}
+public void percent_cal() {
+int total=(mark1+mark2);
+float percent=total*100/200;
+System.out.println ("Percentage: "+percent+"%");
+}
+
+void display() {
+super.display();
+}
+}
+public class StuDetail {
+public static void main(String[] args) {
+
+Result R = new Result("Ragini",12,93,84);
+R.display();
+R.percent_cal();
+}
+}
+
+OUTPUT:
+Name of Student: Ragini
+Roll No. of Student: 12
+Marks of Subject 1: 93
+Marks of Subject 2: 84
+Percentage: 88.0%
+
+RESULT:
+The interface is successfully implemented and its method is invoked.
