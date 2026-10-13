@@ -1,3 +1,16 @@
+AIM:
+To implement a user-defined Java package named Shape containing classes for Square, Circle, and Triangle to calculate and display their respective perimeter and area
+
+ALGORITHM:
+1. Start the program.
+2. Define a package named Shape containing separate classes for Square, Circle, and Triangle with constructor initialization and methods to compute perimeter and area.
+3. Import the Shape package and java.util.Scanner into the main execution class Calculate.
+4. Read user inputs for the side of the square, radius of the circle, and three sides of the triangle.
+5. Instantiate objects for Square, Circle, and Triangle using the user-provided dimensions.
+6. Compute and display the calculated perimeter and area for each shape by invoking their respective methods.
+7. Stop the program.
+
+CODE:
 import java.util.*; 
 class Circle { 
     private int radius; 
@@ -48,3 +61,24 @@ public class Calculate {
         sc.close();
     } 
 }
+
+OUTPUT:
+Enter The side of the Square :
+4
+Perimeter of Square is 16
+Area of Square is 16
+Enter The radius of the Circle :
+5
+Perimeter of Circle is 25.12
+Area of Circle is 50.24
+Enter The Side1 of the Triangle :
+3
+Enter The Side2 of the Triangle :
+4
+Enter The Side3 of the Triangle :
+5
+Perimeter of Triangle is 12
+Area of Triangle is 2.449489742783178
+
+RESULT:
+The Java program successfully created and imported a user-defined package to modularize geometric operations and compute the area and perimeter of different shapes.
